@@ -8,14 +8,11 @@
 
 body {
   font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
-
-.container {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  margin-top: 150px;
 }
 
 .card {
@@ -23,14 +20,27 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 400px;
+  height: 500px;
+  border: 1px solid red;
 }
 
-.profile-pic {
-  border-radius: 50%;
-}
-
-.details {
+.profile {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-group {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
